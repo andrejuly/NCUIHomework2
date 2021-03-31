@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="scripts/main.js"></script>
+    <title>Квадратное уравнение</title>
+</head>
+<body>
+    <h1>Решение квадратного уравнения</h1>
+    <p>Квадратное уравнение - это уравнение вида ax<sup>2</sup> + bx + c = 0, где коэффициенты a,b,c - произвольные числа, причем a ≠ 0.</p>
+    <form action="">
+        <input type="number" id="a"> x<sup>2</sup> +
+        <input type="number" id="b"> x + 
+        <input type="number" id="c"> = 0 
+        <br><br>
+        <input type="button" id="button" value="Решить" onclick="execution()">
+    </form>
+    <div id="show_result">
+        <h2>Результат:</h2>
+        <table id="result">
+        <thead>
+            <tr class="header">
+                <th>№</th>
+                <th>Корни уравнения</th>
+            </tr>
+        </thead>
+        <tbody id="t"></tbody>
+        </table>
+    </div>
+</body>
+</html>

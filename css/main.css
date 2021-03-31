@@ -1,0 +1,67 @@
+body {
+	background: #eee;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+p {
+	font-size: 20px;
+}
+
+#show_result {
+	display: none;
+}
+
+input[type="number"] {
+   border: 1px solid black;
+   border-radius: 5px;
+   width: 80px;
+   height: 20px;
+}
+
+input[type="button"] {
+	border: none;
+	font-size: 20px;
+	color: #fff;
+	background: green;
+	width: 150px;
+	height: 50px;
+	border-radius: 15px;
+}
+
+input[type="button"]:hover {
+	opacity: 0.8;
+}
+
+table {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-collapse: collapse;
+}
+
+
+th {
+  font-weight: bold;
+  padding: 10px;
+  background: #efefef;
+  border-width: 1px;
+  border-style: solid;
+}
+
+td {
+  padding: 20px 20px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+table tr:nth-child(odd){
+	background: pink;
+}
+ 
+table tr:nth-child(even){
+	background: #F7F7F7;
+}
